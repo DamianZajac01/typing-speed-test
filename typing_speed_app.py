@@ -101,9 +101,6 @@ class TypingSpeedApp:
                         if self.user_words[-2] != self.correct_words[-1]:
                             self.wrong_words_idx.append(index - 1)
                             self.entry.configure(fg='red')
-                        # Check if time is up
-                        elif None:
-                            pass
                         else:
                             # Generate new random words
                             self.entry.delete(0, 'end')
