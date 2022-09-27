@@ -1,4 +1,4 @@
 from tkinter import *
-from ui import UserInterface
+from typing_speed_app import TypingSpeedApp
 
-ui = UserInterface()
+app = TypingSpeedApp()
